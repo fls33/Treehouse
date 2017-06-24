@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Philippines Antique</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Notice that when you view our code in chrome developer tools to see what it looks like in different device, notice how the media queries have not taken affect yet. So it's displaying the normal layout. Not the one optimized for smaller screens. So our layout look likes it would look on a desktop browser, but much smaller. So the content is a little difficult to read or see. This is happening because modern devices, like iphone for example, use a vitual viewport that zooms out as much as it can so that the entire layout fits on a screen.-->
+    
+    <!--So to optimize our layout for mobile devices, we'll need to add a special HTML meta tag that instructs to device how to handle the viewport size on mobile devices.-->
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--What we did here is we added a meta tag and we added a attribute called name and set the value to viewport. Right after that we added another attribute called content and we set the value to width=device-width. So in this content value here the width property is what controls the size of the device viewport. And with the value device-width the device's browser will zoom in to fit the screen as much as it needs to, according to the device's width.-->
+  
+  
+  </head>
+  <body> 
+    <header id="top" class="main-header">
+      <span class="title">Journey Through the Province of Antique Where The Mountains Meet The Sea</span>
+      <h1 class="title">Antique, Philippines</h1>
+      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
+      
+      <nav>
+    
+      <ul>
+      
+        <li><a href="index.html" class="selected">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      
+      </ul>
+    
+    
+    </nav>
+    
+    </header>
+    
+		<div class="primary-content t-border">
+			<p class="intro">
+				Come for a short break or stay for a week, Antique, in Visayan Islands, Philippines, is the kind of place that will stay in your sould for a long, long time.
+			</p>
+			<a href="findoutmore.html" class="selected">Find out more</a>
+      
+      <div class="wildlife">
+       
+      </div><!-- End .wildlife -->
+      
+		
+		</div><!-- End .primary-content -->
+
+	
+    
+    
+    
+		<footer class="main-footer">
+			<p>All rights reserved to the province of <a href="#">Antique</a>.</p>
+			<a href="#top">Back to top &raquo;</a>
+		</footer>
+  </body>
+</html>
